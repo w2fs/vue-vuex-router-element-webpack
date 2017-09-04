@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <layout></layout>
+    <layout v-bind=""></layout>
   </div>
 </template>
 
@@ -9,8 +9,8 @@ import Layout from './components/layout';
 import 'element-ui/lib/theme-default/index.css';
 
 export default {
-  name: 'app',
-  components: {
+  name:     'app'   ,
+  components:          {
     Layout,
   },
 };

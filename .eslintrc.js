@@ -5,9 +5,12 @@ module.exports = {
     commonjs: true,
     es6: true
   },
-  extends: 'airbnb-base',
+  extends: [
+    'plugin:vue-libs/recommended',
+    'airbnb-base'
+  ],
   plugins: [
-    'html'
+    'vue'
   ],
   rules: {
     quotes: [2, 'single'],
