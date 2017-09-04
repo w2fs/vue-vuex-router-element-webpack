@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <layout v-bind=""></layout>
+    <layout v-bind></layout>
   </div>
 </template>
 

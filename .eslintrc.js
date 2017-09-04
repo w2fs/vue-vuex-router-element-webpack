@@ -6,11 +6,11 @@ module.exports = {
     es6: true
   },
   extends: [
-    'plugin:vue-libs/recommended',
+    'plugin:vue/recommended',
     'airbnb-base'
   ],
   plugins: [
-    'vue'
+    'html'
   ],
   rules: {
     quotes: [2, 'single'],
